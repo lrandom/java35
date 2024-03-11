@@ -5,6 +5,5 @@ public class ABC {
         Human luan = new Human();
         //luan.age = 20;
         luan.setAge(20);
-
     }
 }
