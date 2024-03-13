@@ -11,5 +11,7 @@ public class JavaCore35 {
                 System.out.println("ABC");
             }
         });
+
+
     }
 }
