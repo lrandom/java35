@@ -1,3 +1,4 @@
+import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 
 public class Demo {
@@ -5,12 +6,15 @@ public class Demo {
         try {
             FileInputStream fileInputStream =
                     new FileInputStream("/Users/lrandom/Desktop/note.txt");
+            BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
             int i = 0;
-            while ((i = fileInputStream.read()) != -1) {
+            while ((i = bufferedInputStream.read()) != -1) {
                 System.out.println((char) i);
             }
             //đóng stream
+            bufferedInputStream.close();
             fileInputStream.close();
+
         } catch (Exception e) {
 
         }
