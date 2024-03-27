@@ -3,6 +3,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.ArrayList;
 
 public class DownloadImage {
     public static void main(String[] args) {

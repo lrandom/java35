@@ -1,0 +1,13 @@
+FileInputStream -> đọc file nhị phân
+BufferedInputStream -> đệm cho đọc file nhị phân
+
+FileOutputStream -> ghi file nhị phân
+BufferedOutputStream -> đệm cho ghi file nhị phân
+
+FileWriter -> ghi file văn bản
+BufferedFileWriter -> đệm cho ghi file văn bản
+
+FileReader  -> đọc file văn bản
+BufferedFileReader -> đệm cho đọc file văn bản
+
+
